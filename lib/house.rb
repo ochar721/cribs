@@ -11,9 +11,9 @@ class House
     @rooms  = []
   end
 
-  # def add_room(rooms)
-  #   @rooms << :room
-  # end
+  def add_room(room)
+    @rooms << room
+  end
 
 
 
